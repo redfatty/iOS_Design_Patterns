@@ -7,6 +7,7 @@
 //
 
 #import "TouchPainterAppDelegate.h"
+#import "TPRootViewController.h"
 
 @implementation TouchPainterAppDelegate
 
@@ -21,7 +22,12 @@
   // Add the view controller's view to the window and display.
   CoordinatingController *coordinatingController = [CoordinatingController sharedInstance];
   UIView *view = [[coordinatingController activeViewController] view];
-  [window_ addSubview:view];
+    
+    TPRootViewController *rootVC = [[TPRootViewController alloc] init];
+    view.frame = rootVC.view.bounds;
+    [rootVC.view addSubview:view];
+    
+    window_.rootViewController = rootVC;
   [window_ makeKeyAndVisible];
   
   return YES;

@@ -61,6 +61,7 @@
 		8B1F9EAA130D941F00FF009E /* redo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B1F9EA8130D941F00FF009E /* redo.png */; };
 		8B1F9EAB130D941F00FF009E /* undo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B1F9EA9130D941F00FF009E /* undo.png */; };
 		8B3B491A12D6BBA2003BA61D /* MarkEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B491912D6BBA2003BA61D /* MarkEnumerator.m */; };
+		CE3DD8531DE2F43200B21379 /* TPRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3DD8521DE2F43200B21379 /* TPRootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -159,6 +160,8 @@
 		8B3B491912D6BBA2003BA61D /* MarkEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkEnumerator.m; sourceTree = "<group>"; };
 		8B3B492712D6BCC4003BA61D /* MarkEnumerator+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MarkEnumerator+Internal.h"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* code00_TouchPainter-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "code00_TouchPainter-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		CE3DD8511DE2F43200B21379 /* TPRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPRootViewController.h; sourceTree = "<group>"; };
+		CE3DD8521DE2F43200B21379 /* TPRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPRootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +195,8 @@
 				23168D6E123FC2230031E406 /* View Controllers */,
 				1D3623240D0F684500981E51 /* TouchPainterAppDelegate.h */,
 				1D3623250D0F684500981E51 /* TouchPainterAppDelegate.m */,
+				CE3DD8511DE2F43200B21379 /* TPRootViewController.h */,
+				CE3DD8521DE2F43200B21379 /* TPRootViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -566,6 +571,7 @@
 				23168D8B123FC55C0031E406 /* MarkRenderer.m in Sources */,
 				237A28981247AE0E00E9AD60 /* ScribbleManager.m in Sources */,
 				237A289B1247AE2700E9AD60 /* Scribble.m in Sources */,
+				CE3DD8531DE2F43200B21379 /* TPRootViewController.m in Sources */,
 				238E124212511C3900E21597 /* ScribbleMemento.m in Sources */,
 				2333BEFA1259AA260029D62A /* ScribbleThumbnailViewImageProxy.m in Sources */,
 				230B52A8126360C1002B7508 /* NSMutableArray+Stack.m in Sources */,
@@ -631,7 +637,7 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PREBINDING = NO;
 				SDKROOT = iphoneos;
 			};
@@ -645,7 +651,7 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
 				SDKROOT = iphoneos;
