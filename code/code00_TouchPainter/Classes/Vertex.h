@@ -11,6 +11,7 @@
 
 @protocol MarkVisitor;
 
+/// 顶点
 @interface Vertex : NSObject <Mark> 
 {
   @protected

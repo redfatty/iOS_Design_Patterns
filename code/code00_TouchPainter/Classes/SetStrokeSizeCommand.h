@@ -18,7 +18,7 @@
 
 @end
 
-
+/// 设置线宽命令
 @interface SetStrokeSizeCommand : Command 
 {
   @private

@@ -10,6 +10,7 @@
 #import "Command.h"
 #import "ScribbleSource.h"
 
+/// 打开涂鸦命令
 @interface OpenScribbleCommand : Command 
 {
   @private

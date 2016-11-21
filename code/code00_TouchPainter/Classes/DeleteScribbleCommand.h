@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "Command.h"
 
+/// 删除涂鸦命令
 @interface DeleteScribbleCommand : Command
 {
 

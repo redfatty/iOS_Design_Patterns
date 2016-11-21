@@ -10,6 +10,7 @@
 #import "Scribble.h"
 #import "ScribbleThumbnailViewImageProxy.h"
 
+/// 涂鸦管理类
 @interface ScribbleManager : NSObject 
 {
 	

@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "Mark.h"
 
-
+/// 涂鸦备忘录
 @interface ScribbleMemento : NSObject
 {
   @private

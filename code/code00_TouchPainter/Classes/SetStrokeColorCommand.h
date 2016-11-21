@@ -26,7 +26,7 @@ typedef void (^PostColorUpdateProvider)(UIColor *color);
 
 @end
 
-
+/// 设置线条颜色命令
 @interface SetStrokeColorCommand : Command
 {
   @private

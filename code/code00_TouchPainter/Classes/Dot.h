@@ -11,6 +11,7 @@
 
 @protocol MarkVisitor;
 
+/// 点, 叶节点
 @interface Dot : Vertex
 {
   @private

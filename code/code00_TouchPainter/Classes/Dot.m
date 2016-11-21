@@ -66,6 +66,7 @@
 #pragma mark An Extended Direct-draw Example
 
 // for a direct draw example
+// 画一个圆点
 - (void) drawWithContext:(CGContextRef)context
 {
   CGFloat x = self.location.x;

@@ -12,6 +12,7 @@
 #import "SetStrokeColorCommand.h"
 #import "SetStrokeSizeCommand.h"
 
+/// 调色板
 @interface PaletteViewController : UIViewController 
                                    <SetStrokeColorCommandDelegate, 
                                     SetStrokeSizeCommandDelegate>

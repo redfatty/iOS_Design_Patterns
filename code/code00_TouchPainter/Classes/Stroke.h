@@ -12,6 +12,7 @@
 
 @protocol MarkVisitor;
 
+/// 线, 组合体
 @interface Stroke : NSObject <Mark>
 {
   @private

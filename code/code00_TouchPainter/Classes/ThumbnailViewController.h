@@ -11,6 +11,7 @@
 #import "ScribbleManager.h"
 #import "CommandBarButton.h"
 
+/// 缩略板
 @interface ThumbnailViewController : UIViewController 
 										<UITableViewDelegate,
 										 UITableViewDataSource>

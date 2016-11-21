@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "Command.h"
 
+/// 保存涂鸦命令
 @interface SaveScribbleCommand : Command 
 {
 

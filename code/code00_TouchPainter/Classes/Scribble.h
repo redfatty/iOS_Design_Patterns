@@ -10,6 +10,7 @@
 #import "Mark.h"
 #import "ScribbleMemento.h"
 
+/// 涂鸦对象类
 @interface Scribble : NSObject
 {
   @private

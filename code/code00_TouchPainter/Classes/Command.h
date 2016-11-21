@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-
+/// 命令对象基类
 @interface Command : NSObject
 {
   @protected

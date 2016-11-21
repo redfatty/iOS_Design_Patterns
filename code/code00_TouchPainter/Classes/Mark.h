@@ -9,13 +9,15 @@
 #import <UIKit/UIKit.h>
 #import "MarkVisitor.h"
 
-
+/// 痕迹
 @protocol Mark <NSObject, NSCopying, NSCoding>
 
 @property (nonatomic, retain) UIColor *color;
 @property (nonatomic, assign) CGFloat size;
 @property (nonatomic, assign) CGPoint location;
+/// 子节点个数
 @property (nonatomic, readonly) NSUInteger count;
+/// 最后一个子节点
 @property (nonatomic, readonly) id <Mark> lastChild;
 
 - (id) copy;

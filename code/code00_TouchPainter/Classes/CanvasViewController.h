@@ -13,6 +13,7 @@
 #import "CommandBarButton.h"
 #import "NSMutableArray+Stack.h"
 
+/// 画板
 @interface CanvasViewController : UIViewController
 {
   @private

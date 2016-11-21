@@ -286,12 +286,12 @@
 			isa = PBXGroup;
 			children = (
 				2331C3341227197600AFBC6E /* Mark.h */,
-				2331C3351227198900AFBC6E /* Dot.h */,
-				2331C3361227198900AFBC6E /* Dot.m */,
 				2331C3381227199600AFBC6E /* Stroke.h */,
 				2331C3391227199600AFBC6E /* Stroke.m */,
 				23168D76123FC2530031E406 /* Vertex.h */,
 				23168D77123FC2530031E406 /* Vertex.m */,
+				2331C3351227198900AFBC6E /* Dot.h */,
+				2331C3361227198900AFBC6E /* Dot.m */,
 				23C59D3E1298BEFA002B38A5 /* PrototypeController.h */,
 				23C59D3F1298BEFA002B38A5 /* PrototypeController.m */,
 			);

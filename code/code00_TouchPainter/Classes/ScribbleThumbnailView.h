@@ -10,6 +10,7 @@
 #import "Scribble.h"
 #import "ScribbleSource.h"
 
+/// 涂鸦缩略图对象类
 @interface ScribbleThumbnailView : UIView <ScribbleSource> 
 {
   @protected

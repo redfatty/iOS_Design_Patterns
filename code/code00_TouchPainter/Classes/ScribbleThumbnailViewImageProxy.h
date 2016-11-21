@@ -10,6 +10,7 @@
 #import "ScribbleThumbnailView.h"
 #import "Command.h"
 
+/// 涂鸦缩略图代理对象类
 @interface ScribbleThumbnailViewImageProxy : ScribbleThumbnailView
 {
   @private
