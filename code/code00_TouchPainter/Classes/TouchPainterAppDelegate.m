@@ -4,7 +4,7 @@
 //
 //  Created by Carlo Chung on 8/21/10.
 //  Copyright 2010 Carlo Chung. All rights reserved.
-//
+//https://github.com/Apress/pro-objective-c-design-patterns-for-ios
 
 #import "TouchPainterAppDelegate.h"
 #import "TPRootViewController.h"
