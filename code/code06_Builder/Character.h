@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-
+/// 角色类
 @interface Character : NSObject 
 {
   @private
@@ -21,12 +21,19 @@
   float aggressiveness_;
 }
 
+/// 防御系数
 @property (nonatomic, assign) float protection;
+/// 能量
 @property (nonatomic, assign) float power;
+/// 力量
 @property (nonatomic, assign) float strength;
+/// 耐力
 @property (nonatomic, assign) float stamina;
+/// 智力
 @property (nonatomic, assign) float intelligence;
+/// 敏捷度
 @property (nonatomic, assign) float agility;
+/// 攻击力
 @property (nonatomic, assign) float aggressiveness;
 
 @end

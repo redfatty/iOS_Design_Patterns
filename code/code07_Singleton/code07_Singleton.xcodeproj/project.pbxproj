@@ -16,6 +16,7 @@
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		8BE82E7F130D21390036654E /* MySingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE82E7E130D21390036654E /* MySingleton.m */; };
+		CED7758A1DE4753B001C57BD /* HJSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = CED775891DE4753B001C57BD /* HJSingleton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		8BE82E7D130D21390036654E /* MySingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySingleton.h; sourceTree = "<group>"; };
 		8BE82E7E130D21390036654E /* MySingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySingleton.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* code07_Singleton-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "code07_Singleton-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		CED775881DE4753B001C57BD /* HJSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJSingleton.h; sourceTree = "<group>"; };
+		CED775891DE4753B001C57BD /* HJSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJSingleton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				234EF8CB11C1F30000BD3EA3 /* Go4Singleton.cpp */,
 				8BE82E7D130D21390036654E /* MySingleton.h */,
 				8BE82E7E130D21390036654E /* MySingleton.m */,
+				CED775881DE4753B001C57BD /* HJSingleton.h */,
+				CED775891DE4753B001C57BD /* HJSingleton.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -182,6 +187,7 @@
 				234EF8C311C1E63100BD3EA3 /* Singleton.m in Sources */,
 				234EF8CC11C1F30000BD3EA3 /* Go4Singleton.cpp in Sources */,
 				8BE82E7F130D21390036654E /* MySingleton.m in Sources */,
+				CED7758A1DE4753B001C57BD /* HJSingleton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

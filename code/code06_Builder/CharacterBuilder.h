@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "Character.h"
 
+/// 抽象 的角色生成器
 @interface CharacterBuilder : NSObject 
 {
   @protected

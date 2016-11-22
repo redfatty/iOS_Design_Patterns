@@ -139,17 +139,19 @@
   [[barButton command] execute];
 }
 
-#pragma mark -
+#pragma mark - 通过生成器来加载画布视图
 #pragma mark Loading a CanvasView from a CanvasViewGenerator
 
-- (void) loadCanvasViewWithGenerator:(CanvasViewGenerator *)generator
-{
+- (void) loadCanvasViewWithGenerator:(CanvasViewGenerator *)generator {
+    //1. 移除之前的画布
   [canvasView_ removeFromSuperview];
+    
+    //2.创建新的画布
   CGRect aFrame = CGRectMake(0, 0, 320, 436);
   CanvasView *aCanvasView = [generator canvasViewWithFrame:aFrame];
-  [self setCanvasView:aCanvasView];
-  NSInteger viewIndex = [[[self view] subviews] count] - 1;
-  [[self view] insertSubview:canvasView_ atIndex:viewIndex];
+    self.canvasView = aCanvasView;
+    [self.view addSubview:aCanvasView];
+    [self.view bringSubviewToFront:aCanvasView];
 }
 
 

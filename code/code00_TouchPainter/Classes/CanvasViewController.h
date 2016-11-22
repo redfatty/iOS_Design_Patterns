@@ -18,6 +18,7 @@
 {
   @private
   Scribble *scribble_;
+    /// 画布视图
   CanvasView *canvasView_;
   
   CGPoint startPoint_;
@@ -30,6 +31,7 @@
 @property (nonatomic, retain) UIColor *strokeColor;
 @property (nonatomic, assign) CGFloat strokeSize;
 
+/// 通过生成器来加载画布
 - (void) loadCanvasViewWithGenerator:(CanvasViewGenerator *)generator;
 
 - (IBAction) onBarButtonHit:(id) button;

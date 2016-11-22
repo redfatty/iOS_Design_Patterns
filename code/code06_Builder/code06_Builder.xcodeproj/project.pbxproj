@@ -81,10 +81,10 @@
 		23A0CCA512A1926300850698 /* Character Builders */ = {
 			isa = PBXGroup;
 			children = (
-				23A0CCA812A1927200850698 /* CharacterBuilder.h */,
-				23A0CCA912A1927200850698 /* CharacterBuilder.m */,
 				23A0CCAD12A1938000850698 /* Character.h */,
 				23A0CCAE12A1938000850698 /* Character.m */,
+				23A0CCA812A1927200850698 /* CharacterBuilder.h */,
+				23A0CCA912A1927200850698 /* CharacterBuilder.m */,
 				23A0CCBC12A1961300850698 /* StandardCharacterBuilder.h */,
 				23A0CCBD12A1961300850698 /* StandardCharacterBuilder.m */,
 			);
@@ -94,9 +94,9 @@
 		23A0CCC912A1991700850698 /* Game */ = {
 			isa = PBXGroup;
 			children = (
-				23A0CCA512A1926300850698 /* Character Builders */,
 				23A0CCCA12A1992600850698 /* ChasingGame.h */,
 				23A0CCCB12A1992600850698 /* ChasingGame.m */,
+				23A0CCA512A1926300850698 /* Character Builders */,
 			);
 			name = Game;
 			sourceTree = "<group>";

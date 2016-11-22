@@ -127,8 +127,8 @@
 		235F19A9127FA3DF0030F4CE /* Branding Products */ = {
 			isa = PBXGroup;
 			children = (
-				235F19AB127FA3F50030F4CE /* Acme */,
 				235F19AA127FA3EF0030F4CE /* Sierra */,
+				235F19AB127FA3F50030F4CE /* Acme */,
 			);
 			name = "Branding Products";
 			sourceTree = "<group>";

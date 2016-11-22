@@ -18,8 +18,12 @@
 {
   // autorelease the previous character
   // before creating a new one
+    //先释放之前的角色
   [character_ autorelease];
+    //再创建一个新的角色
   character_ = [[Character alloc] init];
+    
+    
   
   return self;
 }
