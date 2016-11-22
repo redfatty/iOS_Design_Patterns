@@ -15,6 +15,7 @@
 @interface Vertex : NSObject <Mark> 
 {
   @protected
+    /// 需要绘制到的具体位置
   CGPoint location_;
 }
 

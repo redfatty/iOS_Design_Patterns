@@ -23,13 +23,19 @@
   return self;
 }
 
+
+#pragma mark - 默认属性:
 // default properties do nothing
+// 默认属性什么也不做, 为什么这么处理??
 - (void) setColor:(UIColor *)color {}
 - (UIColor *) color { return nil; }
 - (void) setSize:(CGFloat)size {}
 - (CGFloat) size { return 0.0; }
 
+
+#pragma mark - mark 操作:
 // Mark operations do nothing
+// mark操作什么也不做, 为什么??
 - (void) addMark:(id <Mark>) mark {}
 - (void) removeMark:(id <Mark>) mark {}
 - (id <Mark>) childMarkAtIndex:(NSUInteger) index { return nil; }
@@ -43,12 +49,16 @@
   [visitor visitVertex:self];
 }
 
+
 #pragma mark -
 #pragma mark NSCopying method
 
 // it needs to be implemented for memento
+// 必须实现, 以支持备忘录
 - (id)copyWithZone:(NSZone *)zone
 {
+    //注意:使用 self.class
+    //Vertex只实现了 location 属性, 所以只需要使用 location 来实现复制
   Vertex *vertexCopy = [[[self class] allocWithZone:zone] initWithLocation:location_];
   
   return vertexCopy;
@@ -73,11 +83,13 @@
   [coder encodeObject:[NSValue valueWithCGPoint:location_] forKey:@"VertexLocation"];
 }
 
+
 #pragma mark -
 #pragma mark MarkIterator methods
 
 // for internal iterator implementation
 - (void) enumerateMarksUsingBlock:(void (^)(id <Mark> item, BOOL *stop)) block {}
+
 
 #pragma mark -
 #pragma mark An Extended Direct-draw Example
@@ -93,3 +105,5 @@
 }
 
 @end
+
+

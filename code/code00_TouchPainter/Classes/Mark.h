@@ -20,6 +20,7 @@
 /// 最后一个子节点
 @property (nonatomic, readonly) id <Mark> lastChild;
 
+/// 深复制一个聚合结构对象
 - (id) copy;
 - (void) addMark:(id <Mark>) mark;
 - (void) removeMark:(id <Mark>) mark;
