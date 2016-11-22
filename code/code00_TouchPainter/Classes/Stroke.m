@@ -121,7 +121,9 @@
   for (id <Mark> child in children_)
   {
     id <Mark> childCopy = [child copy];
-    [strokeCopy addMark:child];
+      //bug: 应该是添加copy出来的childCopy
+//    [strokeCopy addMark:child];
+      [strokeCopy addMark:childCopy];
     [childCopy release];
   }
   
