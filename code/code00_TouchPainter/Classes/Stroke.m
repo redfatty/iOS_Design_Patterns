@@ -24,11 +24,14 @@
   return self;
 }
 
+/// 不保存任何位置信息
 - (void) setLocation:(CGPoint)aPoint
 {
   // it doesn't set any arbitrary location
 }
 
+/// 如果有子节点, 则返回第0个子节点的位置
+//  否则返回原点
 - (CGPoint) location
 {
   // return the location of the first child
@@ -42,11 +45,14 @@
   return CGPointZero;
 }
 
+
+/// 添加子节点
 - (void) addMark:(id <Mark>) mark
 {
   [children_ addObject:mark];
 }
 
+/// 移除子节点
 - (void) removeMark:(id <Mark>) mark
 {
   // if mark is at this level then
@@ -55,10 +61,12 @@
   // search for it
   if ([children_ containsObject:mark])
   {
+      //如果就在当前层, 则直接移除
     [children_ removeObject:mark];
   }
   else 
   {
+      //否则, 让自己的子节点再去寻找并移除
     [children_ makeObjectsPerformSelector:@selector(removeMark:)
                                withObject:mark];
   }

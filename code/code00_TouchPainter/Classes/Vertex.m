@@ -26,7 +26,8 @@
 
 #pragma mark - 默认属性:
 // default properties do nothing
-// 默认属性什么也不做, 为什么这么处理??
+//size 和 color 不作处理
+//因为Vertex不关心这两个属性
 - (void) setColor:(UIColor *)color {}
 - (UIColor *) color { return nil; }
 - (void) setSize:(CGFloat)size {}
@@ -35,7 +36,7 @@
 
 #pragma mark - mark 操作:
 // Mark operations do nothing
-// mark操作什么也不做, 为什么??
+// mark相关操作什么也不做
 - (void) addMark:(id <Mark>) mark {}
 - (void) removeMark:(id <Mark>) mark {}
 - (id <Mark>) childMarkAtIndex:(NSUInteger) index { return nil; }
@@ -58,7 +59,7 @@
 - (id)copyWithZone:(NSZone *)zone
 {
     //注意:使用 self.class
-    //Vertex只实现了 location 属性, 所以只需要使用 location 来实现复制
+    //Vertex只实现了(关心) location 属性, 所以只需要使用 location 来实现复制
   Vertex *vertexCopy = [[[self class] allocWithZone:zone] initWithLocation:location_];
   
   return vertexCopy;
