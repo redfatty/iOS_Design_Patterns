@@ -186,7 +186,7 @@
 				236F7F671272BB370010501E /* Command */,
 				23EEF995126C9E87003F5BF7 /* Mediator中介者 */,
 				2352AFF5126A9B4D0091A943 /* Factory Method */,
-				23A2F8F6125EC3CC0006DF79 /* Iterator */,
+				23A2F8F6125EC3CC0006DF79 /* Iterator迭代器 */,
 				23168D7B123FC25D0031E406 /* Visitor */,
 				2331C3331227196900AFBC6E /* Composite组合Prototype原型Iterator迭代 */,
 				2333BE9412594EEF0029D62A /* Proxy */,
@@ -347,7 +347,7 @@
 			children = (
 				238E5256126EA44E002BAC25 /* Command Button */,
 				238C3739128A1BF80022CF5E /* Command Slider */,
-				8BFAC1AB131A986100D593CC /* Custom Stack */,
+				8BFAC1AB131A986100D593CC /* CustomStack自定义栈 */,
 				8BFAC1AA131A984600D593CC /* View2Image */,
 			);
 			name = Utilities;
@@ -385,14 +385,14 @@
 			name = "Command Button";
 			sourceTree = "<group>";
 		};
-		23A2F8F6125EC3CC0006DF79 /* Iterator */ = {
+		23A2F8F6125EC3CC0006DF79 /* Iterator迭代器 */ = {
 			isa = PBXGroup;
 			children = (
 				8B3B491812D6BBA2003BA61D /* MarkEnumerator.h */,
 				8B3B491912D6BBA2003BA61D /* MarkEnumerator.m */,
 				8B3B492712D6BCC4003BA61D /* MarkEnumerator+Internal.h */,
 			);
-			name = Iterator;
+			name = "Iterator迭代器";
 			sourceTree = "<group>";
 		};
 		23BFDFBA1220C50F005A882E /* Images */ = {
@@ -474,13 +474,13 @@
 			name = View2Image;
 			sourceTree = "<group>";
 		};
-		8BFAC1AB131A986100D593CC /* Custom Stack */ = {
+		8BFAC1AB131A986100D593CC /* CustomStack自定义栈 */ = {
 			isa = PBXGroup;
 			children = (
 				230B52A6126360C1002B7508 /* NSMutableArray+Stack.h */,
 				230B52A7126360C1002B7508 /* NSMutableArray+Stack.m */,
 			);
-			name = "Custom Stack";
+			name = "CustomStack自定义栈";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -16,6 +16,10 @@
   // returns an array of yet-visited Mark nodes
   // i.e. the remaining elements in the stack
   return [[stack_ reverseObjectEnumerator] allObjects];
+    NSArray *arr;
+    [arr enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+
+    }];
 }
 
 - (id)nextObject
@@ -56,7 +60,7 @@
   
   NSUInteger index = [mark count];
   id <Mark> childMark;
-  while (childMark = [mark childMarkAtIndex:--index]) 
+  while ((childMark = [mark childMarkAtIndex:--index])) 
   {
     [self traverseAndBuildStackWithMark:childMark];
   }
