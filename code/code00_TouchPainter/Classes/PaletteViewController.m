@@ -25,6 +25,8 @@
 
 - (void) viewDidDisappear:(BOOL)animated
 {
+    [super viewDidDisappear:animated];
+    
   // save the values of the sliders
   NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
   [userDefaults setFloat:[redSlider_ value] forKey:@"red"];

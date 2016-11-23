@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "Command.h"
 
+/// 被适配的对象
 @interface CommandSlider : UISlider
 {
   @protected

@@ -10,8 +10,8 @@
 
 
 @implementation Vertex
-@synthesize location=location_;
-@dynamic color, size;
+@synthesize location=location_;//只需要location这一个属性
+@dynamic color, size;//自已提供 getter, setter
 
 - (id) initWithLocation:(CGPoint) aLocation
 {

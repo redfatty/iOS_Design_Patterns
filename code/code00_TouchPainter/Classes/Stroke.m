@@ -12,7 +12,7 @@
 @implementation Stroke
 
 @synthesize color=color_, size=size_;
-@dynamic location;
+@dynamic location;//自己提供 setter,getter
 
 - (id) init
 {

@@ -155,7 +155,7 @@
 }
 
 
-#pragma mark -
+#pragma mark - 触摸事件处理
 #pragma mark Touch Event Handlers
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
@@ -170,6 +170,7 @@
   // add a new stroke to scribble
   // if this is indeed a drag from
   // a finger
+    //如果是拖动,就向涂鸦添加一条线
   if (CGPointEqualToPoint(lastPoint, startPoint_))
   {
     id <Mark> newStroke = [[[Stroke alloc] init] autorelease];
@@ -194,6 +195,7 @@
   
   // add the current touch as another vertex to the
   // temp stroke
+    //将当前触摸点 作为顶点添加到临时线条
   CGPoint thisPoint = [[touches anyObject] locationInView:canvasView_];
   Vertex *vertex = [[[Vertex alloc] 
                      initWithLocation:thisPoint] 
@@ -212,6 +214,7 @@
   // if the touch never moves (stays at the same spot until lifted now)
   // just add a dot to an existing stroke composite
   // otherwise add it to the temp stroke as the last vertex
+    //没有移动, 就添加一个点
   if (CGPointEqualToPoint(lastPoint, thisPoint))
   {
     Dot *singleDot = [[[Dot alloc] 
@@ -237,6 +240,7 @@
   }
    
   // reset the start point here
+    //重置起点
   startPoint_ = CGPointZero;
   
   // if this is the last point of stroke
@@ -247,11 +251,13 @@
 - (void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event
 {
   // reset the start point here
+    //重置起点
+    //也可以不重置, 但要以防万一
   startPoint_ = CGPointZero;
 }
 
 
-#pragma mark -
+#pragma mark - KVO
 #pragma mark Scribble observer method
 
 - (void) observeValueForKeyPath:(NSString *)keyPath 

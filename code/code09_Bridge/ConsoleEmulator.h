@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "ConsoleCommands.h"
 
+/// 控制台模拟器
 @interface ConsoleEmulator : NSObject 
 {
 

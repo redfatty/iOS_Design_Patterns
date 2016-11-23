@@ -86,7 +86,7 @@ static CoordinatingController *sharedCoordinator = nil;
   {
     switch ([(UIBarButtonItem *)object tag]) 
     {
-      case kButtonTagOpenPaletteView:
+      case kButtonTagOpenPaletteView://打开调色板页面
       {
         // load a PaletteViewController
         PaletteViewController *controller = [[[PaletteViewController alloc] init] autorelease];
@@ -100,7 +100,7 @@ static CoordinatingController *sharedCoordinator = nil;
         activeViewController_ = controller;
       }
         break;
-      case kButtonTagOpenThumbnailView:
+      case kButtonTagOpenThumbnailView://打开涂鸦缩略图页面
       {
         // load a ThumbnailViewController
         ThumbnailViewController *controller = [[[ThumbnailViewController alloc] init] autorelease];
@@ -115,7 +115,7 @@ static CoordinatingController *sharedCoordinator = nil;
         activeViewController_ = controller;
       }
         break;
-      default:
+      default://其他情况,默认回到画板视图页面
         // just go back to the main canvasViewController
         // for the other types 
       {

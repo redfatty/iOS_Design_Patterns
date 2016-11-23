@@ -18,7 +18,15 @@
   id <Mark> incrementalMark_;
 }
 
+//mark 管理的方法:
 // methods for Mark management
+
+/**
+ 插入添加 mark
+
+ @param aMark                   要插入的 mark
+ @param shouldAddToPreviousMark 是否附加到原有的 mark 中
+ */
 - (void) addMark:(id <Mark>)aMark shouldAddToPreviousMark:(BOOL)shouldAddToPreviousMark;
 - (void) removeMark:(id <Mark>)aMark;
 

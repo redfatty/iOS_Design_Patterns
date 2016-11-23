@@ -7,6 +7,7 @@
  *
  */
 
+/// 控制台命令
 typedef enum
 {
   kConsoleCommandUp,

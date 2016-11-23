@@ -19,6 +19,7 @@
   CGFloat size_;
 }
 
+//Dot除了需要 location 外, 还需要color,size 这两个属性
 @property (nonatomic, retain) UIColor *color;
 @property (nonatomic, assign) CGFloat size;
 

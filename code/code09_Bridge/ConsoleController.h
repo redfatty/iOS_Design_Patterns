@@ -10,6 +10,7 @@
 #import "ConsoleEmulator.h"
 #import "ConsoleCommands.h"
 
+/// 控制台控制器
 @interface ConsoleController : NSObject 
 {
   @private

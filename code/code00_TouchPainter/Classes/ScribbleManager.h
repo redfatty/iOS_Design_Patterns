@@ -16,6 +16,8 @@
 	
 }
 
+/// 保存涂鸦
+// 通过这个接口, 实现外观设计模式
 - (void) saveScribble:(Scribble *)scribble thumbnail:(UIImage *)image;
 - (NSInteger) numberOfScribbles;
 - (Scribble *) scribbleAtIndex:(NSInteger)index;

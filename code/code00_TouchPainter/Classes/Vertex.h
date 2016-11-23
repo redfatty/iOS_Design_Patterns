@@ -19,9 +19,10 @@
   CGPoint location_;
 }
 
+//作者注:"子类重新声明重载的属性与方法 是个好习惯", 为什么???????
 @property (nonatomic, retain) UIColor *color;
 @property (nonatomic, assign) CGFloat size;
-@property (nonatomic, assign) CGPoint location;
+@property (nonatomic, assign) CGPoint location;//Vertex只需要这个属性, 其他属性都没有用
 @property (nonatomic, readonly) NSUInteger count;
 @property (nonatomic, readonly) id <Mark> lastChild;
 

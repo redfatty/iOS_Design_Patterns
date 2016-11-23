@@ -31,6 +31,7 @@
   {
     // the parent should be a composite
     // object (i.e. Stroke)
+      //父节点应该是一个组合对象
     parentMark_ = [[Stroke alloc] init];
   }
   
@@ -43,6 +44,7 @@
 - (void) addMark:(id <Mark>)aMark shouldAddToPreviousMark:(BOOL)shouldAddToPreviousMark
 {
   // manual KVO invocation
+    //手动调用 KVO
   [self willChangeValueForKey:@"mark"];
   
   // if the flag is set to YES
@@ -70,6 +72,7 @@
 - (void) removeMark:(id <Mark>)aMark
 {  
   // do nothing if aMark is the parent
+    //父节点不允许被删除
   if (aMark == parentMark_) return;
   
   // manual KVO invocation

@@ -43,6 +43,7 @@
                                    alpha:1.0];
   
   // Assign it to the current canvasViewController
+    //将颜色赋值给当前的画布视图控制器
   CoordinatingController *coordinator = [CoordinatingController sharedInstance];
   CanvasViewController *controller = [coordinator canvasViewController];
   [controller setStrokeColor:color];

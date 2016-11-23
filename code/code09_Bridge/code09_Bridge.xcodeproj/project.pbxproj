@@ -82,10 +82,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		23A0CC4312A0952E00850698 /* Console */ = {
+		23A0CC4312A0952E00850698 /* Console控制台 */ = {
 			isa = PBXGroup;
 			children = (
-				23A0CC5D12A0990300850698 /* Concrete Emulators */,
+				23A0CC5D12A0990300850698 /* ConcreteEmulators具体模拟器 */,
 				23A0CC4C12A0972700850698 /* ConsoleCommands.h */,
 				23A0CC4412A0958700850698 /* ConsoleEmulator.h */,
 				23A0CC4512A0958700850698 /* ConsoleEmulator.m */,
@@ -94,10 +94,10 @@
 				23A0CC7012A09F4100850698 /* TouchConsoleController.h */,
 				23A0CC7112A09F4100850698 /* TouchConsoleController.m */,
 			);
-			name = Console;
+			name = "Console控制台";
 			sourceTree = "<group>";
 		};
-		23A0CC5D12A0990300850698 /* Concrete Emulators */ = {
+		23A0CC5D12A0990300850698 /* ConcreteEmulators具体模拟器 */ = {
 			isa = PBXGroup;
 			children = (
 				23A0CC5E12A0992C00850698 /* GameBoyEmulator.h */,
@@ -105,13 +105,13 @@
 				23A0CC6112A0998200850698 /* GameGearEmulator.h */,
 				23A0CC6212A0998200850698 /* GameGearEmulator.m */,
 			);
-			name = "Concrete Emulators";
+			name = "ConcreteEmulators具体模拟器";
 			sourceTree = "<group>";
 		};
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				23A0CC4312A0952E00850698 /* Console */,
+				23A0CC4312A0952E00850698 /* Console控制台 */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,

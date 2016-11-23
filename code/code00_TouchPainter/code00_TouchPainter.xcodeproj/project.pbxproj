@@ -184,13 +184,13 @@
 			children = (
 				236F7F901272C33F0010501E /* Utilities */,
 				236F7F671272BB370010501E /* Command */,
-				23EEF995126C9E87003F5BF7 /* Mediator */,
+				23EEF995126C9E87003F5BF7 /* Mediator中介者 */,
 				2352AFF5126A9B4D0091A943 /* Factory Method */,
 				23A2F8F6125EC3CC0006DF79 /* Iterator */,
 				23168D7B123FC25D0031E406 /* Visitor */,
-				2331C3331227196900AFBC6E /* Composite Prototype Iterator */,
+				2331C3331227196900AFBC6E /* Composite组合Prototype原型Iterator迭代 */,
 				2333BE9412594EEF0029D62A /* Proxy */,
-				237A288D1247ABE800E9AD60 /* Memento Observer */,
+				237A288D1247ABE800E9AD60 /* Memento备忘录Observer观察者 */,
 				23168D80123FC29D0031E406 /* Views */,
 				23168D6E123FC2230031E406 /* View Controllers */,
 				1D3623240D0F684500981E51 /* TouchPainterAppDelegate.h */,
@@ -282,7 +282,7 @@
 			name = Views;
 			sourceTree = "<group>";
 		};
-		2331C3331227196900AFBC6E /* Composite Prototype Iterator */ = {
+		2331C3331227196900AFBC6E /* Composite组合Prototype原型Iterator迭代 */ = {
 			isa = PBXGroup;
 			children = (
 				2331C3341227197600AFBC6E /* Mark.h */,
@@ -295,7 +295,7 @@
 				23C59D3E1298BEFA002B38A5 /* PrototypeController.h */,
 				23C59D3F1298BEFA002B38A5 /* PrototypeController.m */,
 			);
-			name = "Composite Prototype Iterator";
+			name = "Composite组合Prototype原型Iterator迭代";
 			sourceTree = "<group>";
 		};
 		2333BE9412594EEF0029D62A /* Proxy */ = {
@@ -353,7 +353,7 @@
 			name = Utilities;
 			sourceTree = "<group>";
 		};
-		237A288D1247ABE800E9AD60 /* Memento Observer */ = {
+		237A288D1247ABE800E9AD60 /* Memento备忘录Observer观察者 */ = {
 			isa = PBXGroup;
 			children = (
 				237A28961247AE0E00E9AD60 /* ScribbleManager.h */,
@@ -364,7 +364,7 @@
 				238E124112511C3900E21597 /* ScribbleMemento.m */,
 				238E1253125127D800E21597 /* ScribbleMemento+Friend.h */,
 			);
-			name = "Memento Observer";
+			name = "Memento备忘录Observer观察者";
 			sourceTree = "<group>";
 		};
 		238C3739128A1BF80022CF5E /* Command Slider */ = {
@@ -411,13 +411,13 @@
 			name = Images;
 			sourceTree = "<group>";
 		};
-		23EEF995126C9E87003F5BF7 /* Mediator */ = {
+		23EEF995126C9E87003F5BF7 /* Mediator中介者 */ = {
 			isa = PBXGroup;
 			children = (
 				23EEF9A5126C9F90003F5BF7 /* CoordinatingController.h */,
 				23EEF9A6126C9F90003F5BF7 /* CoordinatingController.m */,
 			);
-			name = Mediator;
+			name = "Mediator中介者";
 			sourceTree = "<group>";
 		};
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
