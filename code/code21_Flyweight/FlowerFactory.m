@@ -32,40 +32,35 @@
   // add it to the pool
   if (flowerView == nil)
   {
-    UIImage *flowerImage;
-    
+    NSString *imgName = @"";
     switch (type) 
     {
-      case kAnemone:
-        flowerImage = [UIImage imageNamed:@"anemone.png"];
+      case kAnemone:   imgName = @"anemone.png";
         break;
-      case kCosmos:
-        flowerImage = [UIImage imageNamed:@"cosmos.png"];
+      case kCosmos:    imgName = @"cosmos.png";
         break;
-      case kGerberas:
-        flowerImage = [UIImage imageNamed:@"gerberas.png"];
+      case kGerberas:  imgName = @"gerberas.png";
         break;
-      case kHollyhock:
-        flowerImage = [UIImage imageNamed:@"hollyhock.png"];
+      case kHollyhock: imgName = @"hollyhock.png";
         break;
-      case kJasmine:
-        flowerImage = [UIImage imageNamed:@"jasmine.png"];
+      case kJasmine:   imgName = @"jasmine.png";
         break;
-      case kZinnia:
-        flowerImage = [UIImage imageNamed:@"zinnia.png"];
+      case kZinnia:    imgName = @"zinnia.png";
         break;
       default:
         break;
     } 
     
+      UIImage *flowerImg = [UIImage imageNamed:imgName];
     flowerView = [[[FlowerView alloc] 
-                   initWithImage:flowerImage] autorelease];
+                   initWithImage:flowerImg] autorelease];
     [flowerPool_ setObject:flowerView 
                     forKey:[NSNumber numberWithInt:type]];
   }
   
   return flowerView;
 }
+
 
 - (void) dealloc
 {

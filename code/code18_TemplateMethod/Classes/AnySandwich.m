@@ -17,9 +17,11 @@
   [self putBreadOnPlate];
   [self addMeat];
   [self addCondiments];
-  [self extraStep];
+  [self extraStep];//最后一个步骤之前, 调用额外步骤的方法(钩子)
   [self serve];
 }
+
+
 
 - (void) putBreadOnPlate
 {

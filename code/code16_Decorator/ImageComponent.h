@@ -14,6 +14,7 @@
 // We will intercept these
 // UIImage methods and add
 // additional behavior
+// 通过截获UIImage的这些方法, 来插入我们自己的一些附加行为:
 @optional
 - (void) drawAsPatternInRect:(CGRect)rect; 
 - (void) drawAtPoint:(CGPoint)point;

@@ -22,6 +22,8 @@
   return self;
 }
 
+
+#pragma mark - 实现visitor* 方法:
 - (void) visitMark:(id <Mark>)mark
 {
   // default behavior

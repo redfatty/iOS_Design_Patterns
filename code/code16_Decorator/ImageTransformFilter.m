@@ -29,6 +29,7 @@
   CGContextRef context = UIGraphicsGetCurrentContext();
   
   // setup transformation
+    //设置transform
   CGContextConcatCTM(context, transform_);
 }
 

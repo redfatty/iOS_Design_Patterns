@@ -37,6 +37,7 @@
   [super viewDidLoad];
   
   // this method call should throw an exception
+    
   AnySandwich * sandwich = [[AnySandwich alloc] init];
   [sandwich make];
   [sandwich release];

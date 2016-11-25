@@ -17,6 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    NSInvocation;
+    NSUndoManager;
+    
+    NSInteger *a = 5;
+    *a = 6;
 }
 
 - (void)didReceiveMemoryWarning {

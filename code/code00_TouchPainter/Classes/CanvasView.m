@@ -32,13 +32,14 @@
   
   // Drawing code
   CGContextRef context = UIGraphicsGetCurrentContext();
+    
+    //通过访问者来完成绘制工作
   
   // create a renderer visitor
   MarkRenderer *markRenderer = [[[MarkRenderer alloc] initWithCGContext:context] autorelease];
   
   // pass this renderer along the mark composite structure
   [mark_ acceptMarkVisitor:markRenderer];
-  
 }
 
 

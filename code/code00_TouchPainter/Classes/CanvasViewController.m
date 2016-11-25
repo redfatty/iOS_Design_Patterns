@@ -277,7 +277,7 @@
 
 #pragma mark -
 #pragma mark Draw Scribble Invocation Generation Methods
-
+/// 生成绘制命令
 - (NSInvocation *) drawScribbleInvocation
 {
   NSMethodSignature *executeMethodSignature = [scribble_ 
@@ -290,11 +290,15 @@
   [drawInvocation setTarget:scribble_];
   [drawInvocation setSelector:@selector(addMark:shouldAddToPreviousMark:)];
   BOOL attachToPreviousMark = NO;
+    //index 0 是接收器
+    //index 1 是包含被调用选择器名字的_cmd
+    //index 2 将在获取到drawInvocation后再设置
   [drawInvocation setArgument:&attachToPreviousMark atIndex:3];
   
   return drawInvocation;
 }
 
+/// 生成清空命令
 - (NSInvocation *) undrawScribbleInvocation
 {
   NSMethodSignature *unexecuteMethodSignature = [scribble_ 

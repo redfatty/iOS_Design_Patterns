@@ -27,6 +27,7 @@
 - (id <Mark>) childMarkAtIndex:(NSUInteger) index;
 
 // for the Visitor pattern
+// 为支持访问者模式而定义的方法
 - (void) acceptMarkVisitor:(id <MarkVisitor>) visitor;
 
 // for the Iterator pattern

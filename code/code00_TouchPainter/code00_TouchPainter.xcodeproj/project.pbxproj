@@ -185,9 +185,9 @@
 				236F7F901272C33F0010501E /* Utilities */,
 				236F7F671272BB370010501E /* Command */,
 				23EEF995126C9E87003F5BF7 /* Mediator中介者 */,
-				2352AFF5126A9B4D0091A943 /* Factory Method */,
+				2352AFF5126A9B4D0091A943 /* FactoryMethod工厂方法 */,
 				23A2F8F6125EC3CC0006DF79 /* Iterator迭代器 */,
-				23168D7B123FC25D0031E406 /* Visitor */,
+				23168D7B123FC25D0031E406 /* Visitor访问者 */,
 				2331C3331227196900AFBC6E /* Composite组合Prototype原型Iterator迭代 */,
 				2333BE9412594EEF0029D62A /* Proxy */,
 				237A288D1247ABE800E9AD60 /* Memento备忘录Observer观察者 */,
@@ -259,14 +259,14 @@
 			name = "View Controllers";
 			sourceTree = "<group>";
 		};
-		23168D7B123FC25D0031E406 /* Visitor */ = {
+		23168D7B123FC25D0031E406 /* Visitor访问者 */ = {
 			isa = PBXGroup;
 			children = (
 				23168D87123FC4880031E406 /* MarkVisitor.h */,
 				23168D89123FC55C0031E406 /* MarkRenderer.h */,
 				23168D8A123FC55C0031E406 /* MarkRenderer.m */,
 			);
-			name = Visitor;
+			name = "Visitor访问者";
 			sourceTree = "<group>";
 		};
 		23168D80123FC29D0031E406 /* Views */ = {
@@ -310,7 +310,7 @@
 			name = Proxy;
 			sourceTree = "<group>";
 		};
-		2352AFF5126A9B4D0091A943 /* Factory Method */ = {
+		2352AFF5126A9B4D0091A943 /* FactoryMethod工厂方法 */ = {
 			isa = PBXGroup;
 			children = (
 				2352AFFC126A9BBC0091A943 /* CanvasViewGenerator.h */,
@@ -320,7 +320,7 @@
 				2352B002126A9BD90091A943 /* ClothCanvasViewGenerator.h */,
 				2352B003126A9BD90091A943 /* ClothCanvasViewGenerator.m */,
 			);
-			name = "Factory Method";
+			name = "FactoryMethod工厂方法";
 			sourceTree = "<group>";
 		};
 		236F7F671272BB370010501E /* Command */ = {

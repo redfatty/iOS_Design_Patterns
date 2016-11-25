@@ -25,6 +25,7 @@ typedef enum
   NSMutableDictionary *flowerPool_;
 }
 
+
 - (UIView *) flowerViewWithType:(FlowerType)type;
 
 @end

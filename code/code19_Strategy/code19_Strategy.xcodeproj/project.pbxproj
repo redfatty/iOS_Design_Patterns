@@ -82,14 +82,14 @@
 		238069811207C83A00DCA0BA /* InputValidation */ = {
 			isa = PBXGroup;
 			children = (
+				8BD043BA130B8E9E00547009 /* InputValidator.h */,
+				8BD043BB130B8E9E00547009 /* InputValidator.m */,
 				238069891207CA1A00DCA0BA /* NumericInputValidator.h */,
 				2380698A1207CA1A00DCA0BA /* NumericInputValidator.m */,
 				2380698C1207CEA100DCA0BA /* AlphaInputValidator.h */,
 				2380698D1207CEA100DCA0BA /* AlphaInputValidator.m */,
 				238069E31207E1FA00DCA0BA /* CustomTextField.h */,
 				238069E41207E1FA00DCA0BA /* CustomTextField.m */,
-				8BD043BA130B8E9E00547009 /* InputValidator.h */,
-				8BD043BB130B8E9E00547009 /* InputValidator.m */,
 			);
 			name = InputValidation;
 			sourceTree = "<group>";

@@ -124,13 +124,13 @@
 			name = Subclasses;
 			sourceTree = "<group>";
 		};
-		2384A4A1129220A50069B279 /* Decorators */ = {
+		2384A4A1129220A50069B279 /* Decorators装饰 */ = {
 			isa = PBXGroup;
 			children = (
 				236C23DF12A5F0B0007095A9 /* Subclasses */,
 				236C23DE12A5F0A4007095A9 /* Categories */,
 			);
-			name = Decorators;
+			name = "Decorators装饰";
 			sourceTree = "<group>";
 		};
 		2384A4E312922AFD0069B279 /* Images */ = {
@@ -144,7 +144,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				2384A4A1129220A50069B279 /* Decorators */,
+				2384A4A1129220A50069B279 /* Decorators装饰 */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,

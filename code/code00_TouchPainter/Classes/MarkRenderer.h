@@ -23,6 +23,8 @@
 
 - (id) initWithCGContext:(CGContextRef)context;
 
+
+// 重新声明重载自MarkVisitor协议中的方法:
 - (void) visitMark:(id <Mark>)mark;
 - (void) visitDot:(Dot *)dot;
 - (void) visitVertex:(Vertex *)vertex;

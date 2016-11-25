@@ -29,6 +29,7 @@
 {
   // should be overridden by subclasses
   // to apply real filters
+    //应该由子类重写, 使用真正的滤镜
 }
 
 - (id) forwardingTargetForSelector:(SEL)aSelector
